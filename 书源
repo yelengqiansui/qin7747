@@ -1,1 +1,48 @@
-
+{
+  "bookSourceComment": "//By情无羁,ByBuding,25.02.19,目前免登录,后续有问题再做修改",
+  "bookSourceGroup": "正版",
+  "bookSourceName": "海狸故事",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://haili.chineseall.net/",
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": false,
+  "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\";\n\"X-Requested-With\": \"com.uop.app\";\n\"Sec-Fetch-Site\": \"same-origin\";\n\"Sec-Fetch-Mode\": \"cors\";\n\"Sec-Fetch-Dest\": \"empty\";\n\"Accept-Language\": \"zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\";\n\"Authorization\":  \"eyJzeXN0ZW1LZXlIZWFkZXIiOiJmcm9udCIsImFsZyI6IkhTMjU2In0.eyJzdWIiOiIxMDM4MTQzNzMifQ.Ao6yyagD3-xT9ak411Vbxd7cXJcX7poaTzBdcVDAono\"\n\t}",
+  "jsLib": "function getInfo(name, source) {\n\treturn source.getLoginInfoMap() && source.getLoginInfoMap().get(name);\n}\n\nfunction getUrl(_) {\n   return eval(String(this.java.base64Decode(au)))\n    \t\t\t}\nau='Y29uc3QgeyBqYXZhLCBzb3VyY2UgfSA9IF8gfHwgdGhpcwoJbGV0IGF1dGhvciA9IGdldEluZm8oJ+a6kOS9nOiAhe+8micsIHNvdXJjZSk7CglpZiAoYXV0aG9yID09ICfmg4Xml6DnvoEnKSB7CgkJbGV0IHYgPSBTdHJpbmcoc291cmNlLmdldFZhcmlhYmxlKCkpOwoJCXY7Cgl9IGVsc2UgewoJCXRpcCA9ICLmoKHpqozlpLHotKXvvIFcbuivt+S6jueZu+W9lXVp6L6T5YWl5rqQ5L2c6ICF5ZCNXG7kuabmupDlrozlhajlhY3otLlcbuivt+WLv+ebuOS/oeS7u+S9leesrOS4ieaWueS7mOi0ueacjeWKoVxu5rqQ5L2c6ICF77ya5oOF5peg576BIgoJCWphdmEubG9uZ1RvYXN0KHRpcCk7CgkJdGhyb3cgbmV3IEVycm9yKHRpcCkKCX0='\nfunction encodeToTemplate(base64String) {\n    return `au='${base64String}'`;\n}",
+  "lastUpdateTime": 1741007011883,
+  "loginUi": "[{ \"name\": \"源作者：\",\n      \"type\": \"text\" \n    }\n]",
+  "loginUrl": "function login() {}",
+  "respondTime": 180000,
+  "ruleBookInfo": {
+    "author": "$..penName",
+    "coverUrl": "$..picUrl##\\/(.*)##https://haili-cdn0.chineseall.net/$1",
+    "init": "",
+    "intro": "$..workBrief||$.msg\n@js:\nmsg=result\nif (msg == \"无权访问该作品\")  {\n    bb =\"\\n&nbsp;&nbsp;书籍已下架！！！\";\nbb;\n}\n",
+    "kind": "$..labelName",
+    "name": "$..workInfoName",
+    "tocUrl": "https://haili.chineseall.net/prod-api/api/front/hl_chapter/get_chapter_directory/{{$.data.workInfoId}},{\n\t\"method\": \"get\",\n\t\"headers\": {\n   \"Referer\": \"https://haili.chineseall.net/reader/{{$.data.workInfoId}}\"\n   }\n\t}"
+  },
+  "ruleContent": {
+    "content": "<js>\nfunction _0x330c(){var _0x128a0d=['\\u672c\\u4e66\\u6e90\\u514d\\u8d39\\u5206\\u4eab\\x0a\\u5982\\u679c\\u662f\\u8d2d\\u4e70\\u7684\\u5c31\\u662f\\u4e0a\\u5f53\\u53d7\\u9a97\\u4e86\\x0a\\x42\\x79\\u60c5\\u65e0\\u7f81\\x0a\\u63d0\\u9192\\u4f60\\x0a\\u9996\\u53d1\\u6e90\\u793e\\u533a\\uff1a\\x79\\x73\\x71\\x62\\x62\\x73\\x2e\\x63\\x6f\\x6d\\x2c\\u53d1\\u5e03\\u9875\\uff1a\\x74\\x61\\x6f\\x62\\x61\\x2e\\x63\\x66','\\x74\\x6f\\x61\\x73\\x74','\\x6d\\x64\\x35\\x45\\x6e\\x63\\x6f\\x64\\x65','\\x33\\x38\\x39\\x31\\x39\\x36\\x38\\x4a\\x61\\x69\\x74\\x75\\x41','\\x37\\x39\\x30\\x38\\x32\\x30\\x42\\x4d\\x41\\x46\\x44\\x53','\\x62\\x6f\\x6f\\x6b\\x53\\x6f\\x75\\x72\\x63\\x65\\x4e\\x61\\x6d\\x65','\\x32\\x39\\x32\\x32\\x39\\x39\\x34\\x4d\\x49\\x76\\x57\\x47\\x6a','\\x62\\x6f\\x6f\\x6b\\x53\\x6f\\x75\\x72\\x63\\x65\\x43\\x6f\\x6d\\x6d\\x65\\x6e\\x74','\\x32\\x38\\x38\\x30\\x36\\x34\\x35\\x50\\x4a\\x4b\\x6e\\x4b\\x70','\\x31\\x38\\x66\\x39\\x39\\x66\\x38\\x39\\x39\\x37\\x34\\x39\\x65\\x33\\x62\\x34\\x61\\x37\\x37\\x65\\x63\\x62\\x62\\x61\\x32\\x34\\x61\\x39\\x38\\x35\\x30\\x66','\\x31\\x30\\x32\\x30\\x31\\x38\\x32\\x38\\x4c\\x56\\x48\\x66\\x45\\x4f','\\x6d\\x61\\x74\\x63\\x68','\\x33\\x56\\x65\\x70\\x67\\x63\\x50','\\x31\\x38\\x38\\x39\\x35\\x33\\x38\\x6c\\x43\\x4d\\x61\\x58\\x67','\\x31\\x30\\x36\\x36\\x31\\x32\\x38\\x6d\\x54\\x61\\x6c\\x71\\x77'];_0x330c=function(){return _0x128a0d;};return _0x330c();}function _0x5f01(_0x53d048,_0xd34d1c){var _0x330ccb=_0x330c();return _0x5f01=function(_0x5f011a,_0x4dfc7e){_0x5f011a=_0x5f011a-0xbf;var _0x51e2b5=_0x330ccb[_0x5f011a];return _0x51e2b5;},_0x5f01(_0x53d048,_0xd34d1c);}var _0x58c3a7=_0x5f01;(function(_0x2c1966,_0x4c9120){var _0x5b7515=_0x5f01,_0x2718ed=_0x2c1966();while(!![]){try{var _0xa6639f=parseInt(_0x5b7515(0xc6))/0x1+parseInt(_0x5b7515(0xc8))/0x2*(parseInt(_0x5b7515(0xbf))/0x3)+parseInt(_0x5b7515(0xc5))/0x4+-parseInt(_0x5b7515(0xca))/0x5+-parseInt(_0x5b7515(0xc0))/0x6+-parseInt(_0x5b7515(0xcc))/0x7+-parseInt(_0x5b7515(0xc1))/0x8;if(_0xa6639f===_0x4c9120)break;else _0x2718ed['push'](_0x2718ed['shift']());}catch(_0x463c09){_0x2718ed['push'](_0x2718ed['shift']());}}}(_0x330c,0xb58a3),c=source['\\x62\\x6f\\x6f\\x6b\\x53\\x6f\\x75\\x72\\x63\\x65\\x47\\x72\\x6f\\x75\\x70'],b=source[_0x58c3a7(0xc7)],a=source[_0x58c3a7(0xc9)],aa=java[_0x58c3a7(0xc4)](c+b+a));aa==_0x58c3a7(0xcb)?result=result[_0x58c3a7(0xcd)](/chapterText\\\"\\:\\\"(.*)\\\"\\,\\\"chapterIntroduction/)[0x1]['\\x72\\x65\\x70\\x6c\\x61\\x63\\x65'](/\\\\n/g,'\\x0a'):(bb=_0x58c3a7(0xc2),java[_0x58c3a7(0xc3)](bb),bb);\n</js>"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+    "author": "$..penName",
+    "bookList": "$..list[*]",
+    "bookUrl": "https://haili.chineseall.net/prod-api/api/front/hl_work_info/get_work_details/{{$..workInfoId}}",
+    "checkKeyWord": "孟婆",
+    "coverUrl": "$..picUrl##\\/(.*)##https://haili-cdn0.chineseall.net/$1",
+    "intro": "$..workBrief",
+    "kind": "$..labelName",
+    "name": "$..workInfoName##<em.*?>|</em.*>",
+    "wordCount": "{{$..totalWords}}字"
+  },
+  "ruleToc": {
+    "chapterList": "$.data[*]",
+    "chapterName": "$.chapterName",
+    "chapterUrl": "https://haili.chineseall.net/prod-api/api/front/hl_chapter/get_chapter_details/{{$.chapterId}},{\n\t\"method\": \"get\",\n\t\"headers\": {\n\t\t \"Referer\":https://haili.chineseall.net/reader/{{$.workInfoId}}?cid={{$.chapterId}}\n   }\n\t}"
+  },
+  "searchUrl": "{{getUrl()}}prod-api/api/front/hl_work_info/get_work_search_list?pageNum={{page}}&pageSize=10&keyword={{key}},{\n\t\"method\": \"get\",\n\t\"headers\": {\n   \"Referer\": \"https://haili.chineseall.net/s/{{key}}\n}\n}",
+  "weight": 0
+}
