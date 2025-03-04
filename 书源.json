@@ -1,3 +1,4 @@
+[
 {
   "bookSourceComment": "//By情无羁,ByBuding,25.02.19,目前免登录,后续有问题再做修改",
   "bookSourceGroup": "正版",
@@ -46,3 +47,4 @@
   "searchUrl": "{{getUrl()}}prod-api/api/front/hl_work_info/get_work_search_list?pageNum={{page}}&pageSize=10&keyword={{key}},{\n\t\"method\": \"get\",\n\t\"headers\": {\n   \"Referer\": \"https://haili.chineseall.net/s/{{key}}\n}\n}",
   "weight": 0
 }
+]
